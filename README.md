@@ -6,6 +6,6 @@ Recursive path finding through a list of railway sections spread throughout Euro
 
 The project is also linked to the Google Maps API to calculate the distance by truck by road from the terminals to the origin and destination addresses.
 
-Finally, the pollution saved by transporting by train is Finally, the pollution saved by transporting by train is shown.
+Finally, the pollution saved by transporting by train is shown.
 
 For security reasons all price data is outdated.
