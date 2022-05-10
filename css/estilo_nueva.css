@@ -1,0 +1,566 @@
+/*
+Document Made by Albert Lombarte ajlombarte@yahoo.es 2017
+*/
+
+@viewport {
+	width: 1200px;
+	orientation: landscape;
+	zoom: 2;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	/*font-style:italic;*/
+	font-size:14px;
+	padding:0;
+	margin:0;
+	background:#c2ccd3;
+	color: #1e1e1e;	
+	}
+	
+.servicios_main{
+	text-align: center; 
+	margin-top: 70px;
+}
+
+.servicios_main div{
+	display:inline-block; 
+	/*background: rgba(255,255,255,0.5);*/ 
+	width:290px;
+	padding: 12px 0 0 0;
+}
+
+.servicios_main div:hover{
+	background: rgba(0,0,0,0.8) !important;
+	color: #ffffff !important;
+}
+
+.servicios_main div:hover span{
+	color: #ffffff !important;
+}
+.servicios_main img{
+	margin: 15px 0;
+	border: none;
+}
+
+.servicios_main span{
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.servicios_main a{
+
+}
+	
+p{text-align:justify;
+font-size: 14px !important;
+}
+
+.titulo{
+	width: 1150px;
+	margin: -8px auto 8px auto;
+	color: #fff;
+	text-shadow: 1px 1px 4px #333;
+	text-align: center;
+	font-size: 18px;
+}
+
+#fecha{
+	width: 130px !important;
+}
+
+#mapa{
+	height: 700px;
+}
+
+#fondo_negro{
+	background: rgba(0,0,0,0.6);
+	width: 100%;
+	position: fixed;
+	height: 100%;
+	top: 0;
+}
+
+#pedir{
+	position: fixed;
+	background: #fff;
+	top: 0;
+	left:50%;
+	width: 700px;
+	margin: 30px 0 0 -350px;
+	/*width: 1150px;*/
+	/*min-height: 600px;*/
+	box-shadow: 0 5px 20px #333;
+	border-top: solid 5px #004b9c;
+	border-bottom: solid 5px #00b48e;
+}
+
+#pedir input{
+	border: solid 1px #004b9c;
+}
+
+#pedir textarea{
+	border: solid 1px #004b9c;
+	    width: 575px;
+	height: 50px;
+}
+
+#contacto{
+
+}
+
+#contacto input{
+	border: solid 1px #004b9c;
+}
+
+#contacto textarea{
+	border: solid 1px #004b9c;
+	    width: 575px;
+	height: 100px;
+}
+
+.tcondiciones{
+	color: #004b9c;
+	text-decoration: underline;
+}
+
+#condiciones{
+	position: fixed;
+	top: 300px;
+	width: 450px; 
+	padding: 40px; 
+	background: #fff; 
+	z-index: 2; 
+	margin-left: 290px;
+	border: solid 1px #333; 
+	text-align: justify;
+	/*margin-top: -20px;*/
+}
+
+
+
+a{
+	text-decoration: none;
+	color: #1e1e1e;	
+}
+
+.error{
+	background:#ffa2a2;
+}
+
+.pie a{
+	color: #fff;
+}
+
+.tit{
+	text-align: center;
+}
+
+.ntit{
+	text-align: center;
+	padding: 20px; 
+	background: rgb(173,2,43); 
+	color:#ffffff; 
+	text-shadow: 1px 1px 5px #333; 
+	font-size: 22px;
+}
+
+.nfoto{
+	margin:40px 15px; 
+	display: inline-block;
+	 /*width: 330px; */
+	 vertical-align: middle;
+}
+
+.ntexto{
+	margin:8px 15px; 
+	width: 700px; 
+	display: inline-block; 
+	vertical-align: middle; 
+	text-align: justify;
+}
+
+.titbloque{
+    color: #fff;
+    background: rgb(173,2,43);
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: bold;
+}
+
+.bloque{
+	display: inline-block;
+	vertical-align: top;
+	/*width: 300px;*/
+	/*text-align: justify;*/
+	/*margin: 0 20px;*/
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.bloque ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+.bloque li{
+	margin: 30px 10px;
+	
+}
+
+.logo{
+	/*margin-top: 20px;*/
+}
+.datos{
+	position: absolute;
+	margin-left: 20px;
+}
+	
+#cabecera{
+	width: 1150px;
+    margin: 0 auto;
+    padding: 10px 0;
+	/*border: solid 1px;*/
+	color: #aaa;
+	font-style: italic;
+}
+
+.subtitulo{
+	color:#000;
+	margin: 8px 0 0 0;
+	font-weight: bold;
+}
+
+.lang{
+	font-size: 14px !important;
+	font-weight: bold;
+	    height: 17px;
+}
+.menu{
+	font-size: 18px !important;
+	margin-top: -20px;
+	font-weight: bold;
+	}
+	
+.menu a{
+	margin: 0 0 0 25px;
+	}	
+
+.selected{
+	color: #1e1e1e !important;
+	}
+	
+#derechabab a{
+	color: #aaa; !important;
+}
+#derechabab a:hover{
+	color:#004b9c !important;
+	}
+
+#derechabab{
+	float: right;
+	text-align: right;
+}
+
+#franja{
+	background: rgba(255,255,255,1);
+	margin: 0;
+	border-top: solid 5px #004b9c;
+    /*margin-top: -820px;
+    margin-bottom: 820px;*/
+    border-bottom: solid 5px #004b9c;
+}
+
+#buscador{
+	width: 1150px; /*940*/
+    margin: 100px auto 0 auto;
+    padding: 0;
+    color: #fff;
+}
+.labbuscador{
+	font-size: 16px;
+	font-weight: bold;
+	padding: 12px 38px;
+	display: inline-block;
+	background: #1e1e1e;
+}
+.terminal select{
+	border: none;
+	background: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+    width: 270px;
+    margin: 10px 0;
+}
+
+.reload{
+	width:80px;
+	display: inline-block;
+}
+
+.reload img{
+	position: absolute;
+	margin: 10px 0 0 -2px;
+	cursor: pointer;
+}
+
+.terminal input[type=text]{
+	border: none;
+	background: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+    width: 260px;
+    margin: 10px 0;
+}
+
+form{
+	background: rgba(173,2,43,0.85);/*#004b9c;*/
+	margin-top: 0;
+	padding: 20px 10px 20px 40px;
+	font-size: 16px;
+	/*border: solid 10px #004b9c;*/
+	/*color: #000;*/
+	font-weight: bold;
+}
+
+
+
+#head{
+	background: #0d4fa8;
+	background: url(../img/slider/2.jpg) center center; 
+	background-attachment: fixed;
+	background-size: cover;
+	height: 750px;
+	border-bottom: solid 40px #00b48e;	
+ 
+	/*padding: 10px;*/
+	background-position-y: -100px;
+	padding-top: 20px;	
+}
+
+@media (min-width: 1000px) {
+
+}
+
+.terminal{
+	display: inline-block;
+	/*width: 250px;*/
+	margin-right: 35px;
+}
+
+
+
+input[type=button]{
+	background: #004b9c;
+	border: none;
+	color: #fff;
+	padding: 8px 20px;
+	font-weight: bold;
+	/*width: 140px;*/
+}
+
+.opcion{
+	width: 165px !important;
+}
+
+.mdatos{
+	/*width: 1150px;*/
+	color:#000;
+	margin: 0px auto;
+	text-align: center;
+	font-weight: bold;
+	/*text-shadow: 1px 1px 1px #999;*/
+	font-size: 18px;
+	/*background:rgba(0,0,0,0.6);*/
+	padding:15px 0;
+}
+
+.mdatos table{
+	margin: 0 auto;
+	width: 100%;
+}
+
+.mdatos td{
+	padding: 0 10px;
+	/*vertical-align: top;*/
+}
+
+
+#contenido{
+	background: #fff;
+	width: 1150px;
+	margin: -160px auto 40px auto;
+	min-height: 450px;
+	box-shadow: 0 5px 20px #333;
+	border-top: solid 5px #004b9c;
+	border-bottom: solid 5px #00b48e;
+}
+
+
+
+.resultado{
+    margin: 10px auto;
+    background: #00b48e;
+    width: 97%;
+    text-align: center;
+}
+
+.resultado th{
+	background: #00b48e;
+	padding: 5px;
+	color:#fff;
+}
+
+.resultado tr{
+	background: #fff !important;
+	
+}
+.resultado tr:hover{
+	background-color: #fffab9;
+}
+
+.resultado td{
+	/*background: #fff;*/
+	padding: 5px;
+}
+
+.resultado tfoot td{
+	background: #00b48e;
+	color:#fff;
+}
+
+h2{
+	font-size: 20px;
+}
+
+.contenedor{
+	padding: 20px 40px;
+}
+
+.cpedir{
+	margin: 0 auto;
+	width: 650px;
+}
+
+
+
+footer{
+background: #1e1e1e;
+border-top: solid 5px #004b9c;
+color: #fff;	
+
+}
+
+#colabora{
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px 0;
+	background: #fff;
+	
+}
+
+#colabora img{
+	margin: 10px 30px;
+	vertical-align: middle;
+	}
+
+
+.pie{
+	width: 1150px;
+	margin: 0 auto;
+	padding: 40px 0 80px 0;
+	font-size: 16px;
+	text-align: center;
+}
+
+.servtexto{
+	display: table;
+	 width: 219px; border: solid 1px #333; font-weight: normal; height: 83px;
+}
+
+.valor{
+ height: 151px;
+ width: 472px;
+}
+
+.valor li{
+	margin: 10px !important;
+    margin-left: 50px !important;
+	text-align: left;
+	list-style: url(../img/dot.png);
+}
+
+.servtexto span{
+	display: table-cell;
+	vertical-align: middle;
+
+}
+
+.verde{
+	border:solid 4px #00b48e;
+	padding: 7px;
+	margin-right: 45px
+}
+
+.verde .vtit{
+	color: #fff;
+	background: #00b48e;
+	height: 20px;
+	padding: 14px;
+	margin-bottom: 7px;
+	font-size: 18px;
+	font-weight: normal;
+	text-shadow: 1px 1px 5px #333;
+}
+
+.negro{
+	border:solid 4px #000;
+	padding: 7px;
+	margin-left: 45px;
+}
+
+.negro .vtit{
+	color: #fff;
+	background: #000;
+	height: 20px;
+	padding: 14px;
+	margin-bottom: 7px;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.peque{
+	margin-top: 10px;
+	font-size: 10px;
+	text-align: justify;
+	
+}
+
+iframe{
+	border: none;
+}
+
+.lrs{
+	padding: 20px;
+	background: #004b9c;
+	color:#ffffff; 
+	text-shadow: 1px 1px 5px #333; 
+	font-size: 22px;
+	text-align: center;
+}
+
+#datos{
+	width: 250px; 
+	font-size: 12px; 
+	display: inline-block; 
+	vertical-align: top; 
+	margin-left: 10px;
+}
+
+#datos div{
+	border-bottom: solid 1px #ccc;
+	border-top: solid 1px #ccc; 
+	padding: 9px 0;
+}
