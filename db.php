@@ -1,11 +1,10 @@
 <?php
-//$direccion = 'mysqlv111';
-$direccion = 'qtf749.tpnova.com';
-$usuario = 'qtf749';
 
-$password = 'TpnovaDbPas1';
-//$password = '';
-$base_datos = "qtf749";
+$direccion = 'localhost';
+$usuario = 'root';
+
+$password = '';
+$base_datos = "tpnova";
 
 $email_booking = 'bookings@tpnova.com, eduard@tpnova.com';
 $url_web = 'http://www.tpnova.com';

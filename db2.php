@@ -1,10 +1,10 @@
 <?php
-$direccion = 'localhost'; //qtf749.tpnova.com
-$usuario = 'root'; //qtf749
+$direccion = 'localhost'; 
+$usuario = 'root'; 
 
-//$password = 'TpnovaDbPas1';
+
 $password = 'root';
-$base_datos = "tpnova"; //qtf749
+$base_datos = "tpnova"; 
 $url = "../data/datos.csv";
 $url = "datos.csv";
 $email_booking = 'bookings@tpnova.com, eduard@tpnova.com';
